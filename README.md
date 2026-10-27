@@ -1,10 +1,6 @@
 # Meraki-WAN-Watch
 Slack alerts when any Cisco Meraki MX uplink goes down or comes back — including the backup WAN.
 
-# Meraki WAN Watch
-
-Slack alerts when **any** Cisco Meraki MX uplink goes down or comes back — including the backup WAN.
-
 ## Why
 
 Meraki Dashboard only alerts when the *primary* uplink changes. If your secondary/backup WAN fails while the primary is healthy, Dashboard says nothing, and you find out the day you need it. This is a [long-standing gap](https://community.meraki.com/t5/Security-SD-WAN/No-way-to-know-when-the-secondary-uplink-goes-down/m-p/60455).
