@@ -1,0 +1,19 @@
+# Runtime state (contains device serials and uplink status)
+wan_state.json
+
+# Secrets - never commit API keys or webhook URLs
+.env
+*.env
+secrets.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
